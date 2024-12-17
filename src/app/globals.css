@@ -13,3 +13,7 @@
 .filter-ADB5FE {
     filter: brightness(0) saturate(100%) invert(70%) sepia(16%) saturate(1126%) hue-rotate(198deg) brightness(102%) contrast(99%);
 }
+
+.force-relative {
+    position: relative !important;
+}
