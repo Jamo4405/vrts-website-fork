@@ -17,3 +17,7 @@
 .force-relative {
     position: relative !important;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+}
