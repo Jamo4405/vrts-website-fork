@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.filter-green-600 {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(20%) saturate(4725%) hue-rotate(112deg) brightness(90%) contrast(83%);
+}
+
+.filter-stone-600 {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(11%) saturate(311%) hue-rotate(354deg) brightness(95%) contrast(84%);
+}
+
+.filter-ADB5FE {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(16%) saturate(1126%) hue-rotate(198deg) brightness(102%) contrast(99%);
+}
