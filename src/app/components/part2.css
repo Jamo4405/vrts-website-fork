@@ -11,3 +11,10 @@
     color: #2278CC;
 }
 
+
+.veritas-text-big {
+    background: linear-gradient(45deg, #C1DCFF, #C0C7FF, #0900FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

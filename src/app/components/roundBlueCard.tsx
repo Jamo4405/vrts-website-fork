@@ -1,4 +1,4 @@
-export default function  RoundBlueCard({text}: {
+export default function RoundBlueCard({text}: {
     text: string
 }) {
     return (
