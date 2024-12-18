@@ -18,3 +18,28 @@
     background-clip: text;
     color: transparent;
 }
+
+.max-width-param {
+    max-width: 60vw;
+}
+
+.the-phone-class {
+    transition: 0.3s ease;
+}
+
+.the-phone-class:hover {
+    transform: scale(1.05);
+}
+
+.the-phone-class-s {
+    transition: 0.3s ease;
+}
+
+.the-phone-class-s:hover {
+    transform: scale(1.025);
+}
+
+.veritas-text-big {
+    padding-top: 5vh;
+    font-size: 18vw;
+}
