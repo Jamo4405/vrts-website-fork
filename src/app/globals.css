@@ -21,3 +21,11 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+.force-footer-text {
+    font-size: 16px !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}

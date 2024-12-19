@@ -23,8 +23,23 @@
     max-width: 60vw;
 }
 
+.hover-animation {
+    transition: 0.3s ease;
+}
+
+.hover-animation:hover {
+    transform: scale(1.05);
+}
+
 .the-phone-class {
     transition: 0.3s ease;
+}
+
+@media (max-width: 880px) {
+    .the-phone-class {
+        width: auto;
+        height: 600px !important;
+    }
 }
 
 .the-phone-class:hover {

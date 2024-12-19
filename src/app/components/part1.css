@@ -20,12 +20,23 @@
 }
 
 .nav-mini-text {
-    font-size: 1.2vw;
-    margin: 0 2vw;
+    font-size: 14px;
+    margin: 0 8px;
+    text-wrap: nowrap;
+}
+
+@media (min-width: 880px) {
+    .nav-mini-text {
+        font-size: 22px !important;
+    }
+
+    .nav-mini-text-b {
+        font-size: 22px !important;
+    }
 }
 
 .nav-mini-text-b {
-    font-size: 1.2vw;
+    font-size: 14px;
 }
 
 .text-effect-b {
@@ -38,8 +49,7 @@
 }
 
 .nav-l {
-    width: 30vw;
-    height: 4vw;
+    padding: 8px;
     border-style: solid;
     border-color: #5b616539;
     border-width: 2px;
@@ -53,8 +63,7 @@
 }
 
 .nav-r {
-    width: 10vw;
-    height: 4vw;
+    padding: 8px;
     border-style: solid;
     border-color: #207bb739;
     border-width: 2px;
@@ -115,15 +124,13 @@
 }
 
 .the-text-main {
-    font-size: 5vw;
-    width: 70vw;
     text-align: center;
 }
 
 .the-text-minor {
-    padding-top: 2vw;
-    font-size: 2vw;
-    width: 50vw;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-size: 18px;
 }
 
 .fancy-gradient {
@@ -139,8 +146,7 @@
 }
 
 .grey-button {
-    width: 10vw;
-    height: 3vw;
+    padding: 4px 16px;
     border-style: solid;
     border-color: #5b616539;
     border-width: 2px;
@@ -150,8 +156,7 @@
 }
 
 .blue-button {
-    width: 10vw;
-    height: 3vw;
+    padding: 4px 16px;
     border-style: solid;
     border-color: #207bb739;
     border-width: 2px;
@@ -174,22 +179,45 @@
 }
 
 .header-text-minor {
-    font-size: 2vw;
-    padding: 1vw 5vw;
+    font-size: 22px;
+    padding: 84px 32px 32px 32px;
+}
+
+@media (min-width: 880px) {
+    .stand-text-minor {
+        font-size: 25px;
+    }
 }
 
 .stand-text-minor {
-    padding: 1vw 5vw;
-    font-size: 2vw;
+    padding: 32px 32px;
     text-align: center;
 }
 
-.the-dashboard-class {
-    width: auto;
-    margin: 2vw 0vw;
-    height: 50vw;
-    transition: 0.3s ease;
+@media (min-width: 880px) {
+    .the-dashboard-class {
+        width: 55vw;
+        margin: 0;
+        height: auto;
+        transition: 0.3s ease;
+        z-index: 0;
+    }
 }
+
+@media (max-width: 879px) {
+    .the-dashboard-class {
+        width: 80%;
+        margin: 0;
+        height: auto;
+        transition: 0.3s ease;
+        z-index: 0;
+    }
+}
+
+.the-dashboard-class {
+    max-width: 90%;
+}
+
 
 .the-dashboard-class:hover {
     transform: scale(1.02);

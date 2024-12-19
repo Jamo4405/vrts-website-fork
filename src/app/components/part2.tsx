@@ -12,9 +12,9 @@ export default function Part2() {
                     secondary market resale values all within the
                     VERITAS dashboard.
                 </p>
-                <div className="flex flex-col md:flex-row gap-8 md:gap-5 max-width-param tb-center">
-                    <div className="w-full flex flex-col gap-2.5">
-                        <div className="w-full p-2.5 border border-gray-200 flex flex-col gap-1.5 the-phone-class">
+                <div className="flex flex-col md:flex-row gap-8 md:gap-5 px-8 tb-center">
+                    <div className="w-full flex flex-col gap-2.5 max-w-lg">
+                        <div className="w-full p-2.5 border border-gray-200 flex flex-col gap-1.5 hover-animation">
                             <h3 className="heading-medium">Environmental Impact<span
                                 className="text-gray-400"> (optional)</span></h3>
                             <div
@@ -33,8 +33,8 @@ export default function Part2() {
                             footprint.
                         </div>
                     </div>
-                    <div className="w-full flex flex-col gap-2.5">
-                        <div className="w-full p-2.5 border border-gray-200 flex flex-col gap-1.5 the-phone-class">
+                    <div className="w-full flex flex-col gap-2.5 max-w-lg">
+                        <div className="w-full p-2.5 border border-gray-200 flex flex-col gap-1.5 hover-animation">
                             <div className="w-full flex items-center gap-1.5">
                                 <div
                                     className="w-fit rounded-full bg-gray-200 flex items-center pl-2 pr-3 py-1.5 gap-1">
@@ -55,8 +55,8 @@ export default function Part2() {
                             the DPP below.
                         </div>
                     </div>
-                    <div className="w-full flex flex-col gap-2.5">
-                        <div className="w-full p-2.5 border flex flex-col gap-1.5 the-phone-class">
+                    <div className="w-full flex flex-col gap-2.5 max-w-lg">
+                        <div className="w-full p-2.5 border flex flex-col gap-1.5 hover-animation">
                             <div className="w-full flex items-center gap-1.5">
                                 <div style={{
                                     backgroundColor: "#EDF6FDA1",
@@ -97,12 +97,12 @@ export default function Part2() {
                 </div>
                 <p className="text-center stand-text-minor text-effect">The <span
                     className="font-bold">DPP</span> allows you to:</p>
-                <div className="flex flex-wrap justify-center gap-y-2.5 gap-x-1.5 max-width-param">
+                <div className="flex flex-wrap justify-center gap-y-2.5 gap-x-1.5 w-full h-auto md:px-16 px-6 overflow-hidden">
                     <RoundBlueCard 
                     text={"Comply with EU ESPR 2028"} 
                     className="underline underline-offset-4"
                     />
-                    <RoundBlueCard text={"Disclose the journey and craft that goes into your products"}/>
+                    <RoundBlueCard text={"Disclose the journey and craft of your products"}/>
                     <RoundBlueCard text={"Track resale data of products"}/>
                     <RoundBlueCard text={"Build a stronger secondary market by proving:"}/>
                     <RoundBlueCard text={"Authenticity"}/>
@@ -117,16 +117,14 @@ export default function Part2() {
                 <p className="text-center stand-text-minor text-effect"><span className="font-bold">Earn</span> royalties every time someone
                     exchanges a VERITAS enabled product on our secondary marketplace.</p>
                 <div className="w-full flex justify-center">
-                    <div>
                         <img src="/dashboard3.png" className="the-dashboard-class"></img>
-                    </div>
                 </div>
             </section>
             <footer className="flex flex-col text-stone-600 w-full justify-center items-center">
                 <div className="h-[1px] w-full bg-gray-200"></div>
                 <div className="mt-8 flex items-center self-stretch">
-                    <p className="stand-text-minor text-effect">© 2024 Veritas Group LLC</p>
-                    <p className="ml-auto stand-text-minor text-effect">Based everywhere, all at once.</p>
+                    <p className="stand-text-minor text-effect force-footer-text">© 2024 Veritas Group LLC</p>
+                    <p className="ml-auto stand-text-minor text-effect force-footer-text">Based everywhere, all at once.</p>
                 </div>
                 <h1 className="font-bold the-size veritas-text-big w-fit text-center">VERITAS ®</h1>
             </footer>
