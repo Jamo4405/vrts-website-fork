@@ -18,15 +18,15 @@ export default function Part1() {
                 <div className="hidden md:flex">
                     <div className="nav-bar flex flex-row items-center">
                         <div className="nav-l nav-bar flex flex-row items-center">
-                            <p className="nav-mini-text text-effect underline-effect">
-                                <span>HOME</span>
-                            </p>
-                            <p className="nav-mini-text text-effect underline-effect">
+                            <a href="#home" className="nav-mini-text text-effect underline-effect">
+                                HOME
+                            </a>
+                            <a href="#features" className="nav-mini-text text-effect underline-effect">
                                 FEATURES
-                            </p>
-                            <p className="nav-mini-text text-effect underline-effect">
+                            </a>
+                            <a href="#use-cases" className="nav-mini-text text-effect underline-effect">
                                 USE CASES
-                            </p>
+                            </a>
                         </div>
                         <div className="nav-r">
                             <p className="nav-mini-text-b text-effect-b underline-effect-b">
@@ -62,7 +62,7 @@ export default function Part1() {
                 </div>
             </section>
         </div>*/}
-        <section className="title-page flex flex-row justify-center items-center min-h-screen">
+        <section id="home" className="title-page flex flex-row justify-center items-center min-h-screen">
             <div className="flex flex-col justify-center items-center">
                 <p className="the-text-main text-4xl md:px-28 md:text-6xl text-black justify-center items-center leading-tight md:pt-16">
                     Empowering <span className="fancy-gradient font-bold">products</span> with transparency, sustainability and unparalleled digitisation.

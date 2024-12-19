@@ -79,7 +79,7 @@ export default function Part2() {
                     </div>
                 </div>
             </section>
-            <section className="flex flex-col gap-16 text-stone-600 py-10 justify-center items-center">
+            <section id="features" className="flex flex-col gap-16 text-stone-600 py-10 justify-center items-center">
             <p className="self-start underline underline-offset-4 decoration-gray-500 text-effect header-text-minor">improve</p>
             <p className="text-center stand-text-minor text-effect"><span className="font-bold">Stop</span> selling a product. <span
                     className="font-bold">Start</span> selling the journey.</p>
@@ -89,7 +89,7 @@ export default function Part2() {
                                alt={"screenshot user view"} fill/>
                     </div>
                 </div>
-                <p className="text-center stand-text-minor text-effect">We <span className="font-bold">generate</span> and <span
+                <p id="use-cases" className="text-center stand-text-minor text-effect">We <span className="font-bold">generate</span> and <span
                     className="font-bold">embed</span> QR or NFC tags into your products, letting users tap or
                     exchange the digital product passport.</p>
                 <div className="w-full flex justify-center">
