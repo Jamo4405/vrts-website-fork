@@ -8,7 +8,8 @@ export default function Part2() {
         <div className="flex flex-col justify-center items-center">
             <p className="self-start underline underline-offset-4 decoration-gray-500 text-effect header-text-minor">evaluate</p>
             <section className="flex flex-col gap-16 text-stone-600 py-10 justify-center items-center">
-                <p className="text-center stand-text-minor text-effect"><span className="font-bold">Quantify</span> supply chain sustainability and
+                <p className="text-center stand-text-minor text-effect"><span
+                    className="font-bold">Quantify</span> supply chain sustainability and
                     secondary market resale values all within the
                     VERITAS dashboard.
                 </p>
@@ -29,7 +30,8 @@ export default function Part2() {
                                 <div className="rounded-md bg-gray-50 ml-2.5 px-2 py-1 text-brand-blue">modify</div>
                             </div>
                         </div>
-                        <div className="text-gray-400 text-sm text-center"><span className="underline">Estimate</span> your carbon
+                        <div className="text-gray-400 text-sm text-center"><span
+                            className="underline">Estimate</span> your carbon
                             footprint.
                         </div>
                     </div>
@@ -50,7 +52,8 @@ export default function Part2() {
                             <div className="h-9 rounded-full bg-gray-200"/>
                             <div className="h-9 rounded-full bg-gray-200"/>
                         </div>
-                        <div className="text-center text-gray-400 text-sm"><span className="underline">Convey</span> your
+                        <div className="text-center text-gray-400 text-sm"><span
+                            className="underline">Convey</span> your
                             sustainability in
                             the DPP below.
                         </div>
@@ -73,23 +76,26 @@ export default function Part2() {
                                 and 2 others.
                             </div>
                         </div>
-                        <div className="text-gray-400 text-sm text-center"><span className="underline">Determine</span> your most
+                        <div className="text-gray-400 text-sm text-center"><span
+                            className="underline">Determine</span> your most
                             successful products on the resell markets.
                         </div>
                     </div>
                 </div>
             </section>
             <section id="features" className="flex flex-col gap-16 text-stone-600 py-10 justify-center items-center">
-            <p className="self-start underline underline-offset-4 decoration-gray-500 text-effect header-text-minor">improve</p>
-            <p className="text-center stand-text-minor text-effect"><span className="font-bold">Stop</span> selling a product. <span
-                    className="font-bold">Start</span> selling the journey.</p>
+                <p className="self-start underline underline-offset-4 decoration-gray-500 text-effect header-text-minor">improve</p>
+                <p className="text-center stand-text-minor text-effect"><span className="font-bold">Stop</span> selling
+                    a product. <span
+                        className="font-bold">Start</span> selling the journey.</p>
                 <div className="w-full flex justify-center">
                     <div className="lg:max-w-[400px] md:max-w-[600px] max-w-[80%]">
                         <Image className="force-relative the-phone-class" src={"/screenshots/screenshot_user.png"}
                                alt={"screenshot user view"} fill/>
                     </div>
                 </div>
-                <p id="use-cases" className="text-center stand-text-minor text-effect">We <span className="font-bold">generate</span> and <span
+                <p id="use-cases" className="text-center stand-text-minor text-effect">We <span
+                    className="font-bold">generate</span> and <span
                     className="font-bold">embed</span> QR or NFC tags into your products, letting users tap or
                     exchange the digital product passport.</p>
                 <div className="w-full flex justify-center">
@@ -97,10 +103,11 @@ export default function Part2() {
                 </div>
                 <p className="text-center stand-text-minor text-effect">The <span
                     className="font-bold">DPP</span> allows you to:</p>
-                <div className="flex flex-wrap justify-center gap-y-2.5 gap-x-1.5 w-full h-auto md:px-16 px-6 overflow-hidden">
-                    <RoundBlueCard 
-                    text={"Comply with EU ESPR 2028"} 
-                    className="underline underline-offset-4"
+                <div
+                    className="flex flex-wrap justify-center gap-y-2.5 gap-x-1.5 w-full h-auto md:px-16 px-6 overflow-hidden">
+                    <RoundBlueCard
+                        text={"Comply with EU ESPR 2028"}
+                        className="underline underline-offset-4"
                     />
                     <RoundBlueCard text={"Disclose the journey and craft of your products"}/>
                     <RoundBlueCard text={"Track resale data of products"}/>
@@ -114,20 +121,22 @@ export default function Part2() {
 
             <section className="flex flex-col gap-16 text-stone-600 py-10 mb-28">
                 <p className="self-start underline underline-offset-4 decoration-gray-500 text-effect header-text-minor">capitalise</p>
-                <p className="text-center stand-text-minor text-effect"><span className="font-bold">Earn</span> royalties every time someone
+                <p className="text-center stand-text-minor text-effect"><span
+                    className="font-bold">Earn</span> royalties every time someone
                     exchanges a VERITAS enabled product on our secondary marketplace.</p>
                 <div className="w-full flex justify-center">
-                        <img src="/dashboard3.png" className="the-dashboard-class"></img>
+                    <img src="/dashboard3.png" className="the-dashboard-class"></img>
                 </div>
             </section>
             <footer className="flex flex-col text-stone-600 w-full justify-center items-center">
                 <div className="h-[1px] w-full bg-gray-200"></div>
                 <div className="mt-8 flex items-center self-stretch">
                     <p className="stand-text-minor text-effect force-footer-text">© 2024 Veritas Group LLC</p>
-                    <p className="ml-auto stand-text-minor text-effect force-footer-text">Based everywhere, all at once.</p>
+                    <p className="ml-auto stand-text-minor text-effect force-footer-text">Based everywhere, all at
+                        once.</p>
                 </div>
                 <p className="font-bold veritas-text-big w-fit text-center">
-                    VERITAS <sup className="veritas-text-big text-center !text-9xl">®</sup>
+                    VERITAS <sup className="veritas-text-big text-center !text-9xl hidden md:block">®</sup>
                 </p>
             </footer>
         </div>

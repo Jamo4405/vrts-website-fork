@@ -45,12 +45,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .cursor-star {
+}
+
+.cursor-star {
     font-size: 25px;
     pointer-events: none;
     position: absolute;
-  }
+}
   
   
