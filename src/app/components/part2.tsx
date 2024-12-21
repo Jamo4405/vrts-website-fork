@@ -126,7 +126,9 @@ export default function Part2() {
                     <p className="stand-text-minor text-effect force-footer-text">© 2024 Veritas Group LLC</p>
                     <p className="ml-auto stand-text-minor text-effect force-footer-text">Based everywhere, all at once.</p>
                 </div>
-                <h1 className="font-bold the-size veritas-text-big w-fit text-center">VERITAS ®</h1>
+                <p className="font-bold veritas-text-big w-fit text-center">
+                    VERITAS <sup className="veritas-text-big text-center !text-9xl">®</sup>
+                </p>
             </footer>
         </div>
     );

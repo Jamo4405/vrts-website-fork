@@ -7,7 +7,7 @@ export default function Part1() {
             <div className="fixed w-screen top-0 left-0 flex items-center p-4 md:p-10 z-50">
                 <div className="flex items-center gap-2">
                     <Image src={"/logo.png"} alt={"logo"} width={60} height={60}/>
-                    <p className="text-effect text-3xl md:text-5xl">VERITAS ®</p>
+                    <p className="text-effect text-3xl md:text-5xl">VERITAS</p><sup className="text-effect text-3xl">®</sup>
                 </div>
                 <div className="flex-grow" />
                 {/* Mobile */}
@@ -136,7 +136,7 @@ export default function Part1() {
         <section id="home" className="title-page flex flex-row justify-center items-center min-h-screen">
             <div className="flex flex-col justify-center items-center">
                 <p className="the-text-main text-4xl md:px-28 md:text-6xl text-black justify-center items-center leading-tight md:pt-16">
-                    <span className="hidden md:inline">So </span>VERITAS ® empowers <span className="fancy-gradient font-bold">products</span> with transparency, sustainability and unparalleled digitisation.
+                    <span className="hidden md:inline">So </span>VERITAS<sup className="text-4xl"> ®</sup> empowers <span className="fancy-gradient font-bold">products</span> with transparency, sustainability and unparalleled digitisation.
                 </p>
                 <p className="the-text-minor text-center text-effect px-4 md:px-48">
                     We <span className="underline underline-offset-4 decoration-gray-500 decoration-2">trace</span>, <span className="underline underline-offset-4 decoration-gray-500 decoration-2">evaluate</span> and <span className="underline underline-offset-4 decoration-gray-500 decoration-2">improve</span> the impact of your products.
