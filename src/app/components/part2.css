@@ -37,8 +37,9 @@
 
 @media (max-width: 880px) {
     .the-phone-class {
-        width: auto;
-        height: 600px !important;
+        width: auto !important;
+        height: 70vh !important;
+        object-fit: cover !important;
     }
 }
 

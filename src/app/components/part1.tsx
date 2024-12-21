@@ -63,30 +63,30 @@ export default function Part1() {
             </section>
         </div>*/}
         
-        <section className="the-problem flex flex-col justify-center items-center hidden md:block">
+        <section className="the-problem flex flex-col justify-center items-center">
             <div className="ticket-items flex flex-col md:flex-row">
                 <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
-                <img src="/int-1.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
-                <p className="text-gray-400 text-sm text-center pt-5">
-                    <span className="underline">US$250B</span> are lost each year due to counterfeit products.
-                </p>
+                    <img src="/int-1.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                    <p className="text-gray-400 text-sm text-center pt-5">
+                        <span className="underline">US$250B</span> are lost each year due to counterfeit products.
+                    </p>
                 </div>
                 <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
-                <img src="/int-2.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
-                <p className="text-gray-400 text-sm text-center pt-5">
-                    <span className="underline">Only 19%</span> of companies in the fashion industry have visibility over their value chain.
-                </p>
+                    <img src="/int-2.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                    <p className="text-gray-400 text-sm text-center pt-5">
+                        <span className="underline">Only 19%</span> of companies in the fashion industry have visibility over their value chain.
+                    </p>
                 </div>
                 <div className="individual-tickets ticket-width w-full md:w-auto px-4">
-                <img src="/int-3.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
-                <p className="text-gray-400 text-sm text-center pt-5">
-                    <span className="underline">1M</span> deaths each year are caused by counterfeit medicines.
-                </p>
+                    <img src="/int-3.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                    <p className="text-gray-400 text-sm text-center pt-5">
+                        <span className="underline">1M</span> deaths each year are caused by counterfeit medicines.
+                    </p>
                 </div>
             </div>
 
             <p className="the-text-main text-4xl md:px-28 md:text-6xl text-black justify-center items-center leading-tight md:pt-16">
-                Today&apos;s products are broken, yet ...
+                Today&apos;s products are broken ...
             </p>
 
             {/* Second set of ticket-items - hidden on small screens */}
@@ -94,7 +94,7 @@ export default function Part1() {
                 <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
                 <img src="/int-4.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
                 <p className="text-gray-400 text-sm text-center pt-5">
-                    <span className="underline">75%</span> of consumers care about a products’ country of origin.
+                    Yet <span className="underline">75%</span> of consumers care about a products’ country of origin.
                 </p>
                 </div>
                 <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">

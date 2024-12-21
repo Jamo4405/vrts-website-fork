@@ -1,6 +1,7 @@
 
 .the-problem {
-    padding-top: 20vh;
+    padding-top: 15vh;
+    transform: scale(0.9);
 }
 
 .the-logo {
@@ -233,6 +234,12 @@
         height: auto;
         transition: 0.3s ease;
         z-index: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .the-problem {
+        display: none;
     }
 }
 

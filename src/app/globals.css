@@ -28,4 +28,29 @@ body {
 
 html {
     scroll-behavior: smooth;
+    cursor: none;
 }
+
+#custom-cursor {
+    position: fixed;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #ffffff00;
+    backdrop-filter: blur(10px);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cursor-star {
+    font-size: 25px;
+    pointer-events: none;
+    position: absolute;
+  }
+  
+  
