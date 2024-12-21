@@ -62,13 +62,63 @@ export default function Part1() {
                 </div>
             </section>
         </div>*/}
+        
+        <section className="the-problem flex flex-col justify-center items-center hidden md:block">
+            <div className="ticket-items flex flex-col md:flex-row">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <img src="/int-1.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                <p className="text-gray-400 text-sm text-center pt-5">
+                    <span className="underline">US$250B</span> are lost each year due to counterfeit products.
+                </p>
+                </div>
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <img src="/int-2.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                <p className="text-gray-400 text-sm text-center pt-5">
+                    <span className="underline">Only 19%</span> of companies in the fashion industry have visibility over their value chain.
+                </p>
+                </div>
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4">
+                <img src="/int-3.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                <p className="text-gray-400 text-sm text-center pt-5">
+                    <span className="underline">1M</span> deaths each year are caused by counterfeit medicines.
+                </p>
+                </div>
+            </div>
+
+            <p className="the-text-main text-4xl md:px-28 md:text-6xl text-black justify-center items-center leading-tight md:pt-16">
+                Today&apos;s products are broken, yet ...
+            </p>
+
+            {/* Second set of ticket-items - hidden on small screens */}
+            <div className="ticket-items flex flex-col md:flex-row pt-[15vh]">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <img src="/int-4.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                <p className="text-gray-400 text-sm text-center pt-5">
+                    <span className="underline">75%</span> of consumers care about a products’ country of origin.
+                </p>
+                </div>
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <img src="/int-5.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                <p className="text-gray-400 text-sm text-center pt-5">
+                    The resale market is expected to <span className="underline">double</span> in volume by 2027.
+                </p>
+                </div>
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4">
+                <img src="/int-6.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
+                <p className="text-gray-400 text-sm text-center pt-5">
+                    The EU is mandating Digital Product Passports starting in <span className="underline">2026</span>.
+                </p>
+                </div>
+            </div>
+        </section>
+
         <section id="home" className="title-page flex flex-row justify-center items-center min-h-screen">
             <div className="flex flex-col justify-center items-center">
                 <p className="the-text-main text-4xl md:px-28 md:text-6xl text-black justify-center items-center leading-tight md:pt-16">
-                    Empowering <span className="fancy-gradient font-bold">products</span> with transparency, sustainability and unparalleled digitisation.
+                    <span className="hidden md:inline">So </span>VERITAS ® empowers <span className="fancy-gradient font-bold">products</span> with transparency, sustainability and unparalleled digitisation.
                 </p>
                 <p className="the-text-minor text-center text-effect px-4 md:px-48">
-                    The first platform ever to completely <span className="underline underline-offset-4 decoration-gray-500 decoration-2">trace</span>, <span className="underline underline-offset-4 decoration-gray-500 decoration-2">evaluate</span> and <span className="underline underline-offset-4 decoration-gray-500 decoration-2">improve</span> the impact of your products.
+                    We <span className="underline underline-offset-4 decoration-gray-500 decoration-2">trace</span>, <span className="underline underline-offset-4 decoration-gray-500 decoration-2">evaluate</span> and <span className="underline underline-offset-4 decoration-gray-500 decoration-2">improve</span> the impact of your products.
                 </p>
                 <div className="button-container">
                     <button className="blue-button button-hover">

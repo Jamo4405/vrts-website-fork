@@ -1,8 +1,30 @@
 
+.the-problem {
+    padding-top: 20vh;
+}
+
 .the-logo {
     width: auto;
     margin-top: 0.2vw;
     height: 3.3vw;
+}
+
+.individual-tickets {
+    margin-top: 25vh;
+    margin: 0 5vw;
+}
+
+.the-ticket {
+    border-radius: 1.75vw;
+    transition: 0.3s;
+}
+
+.the-ticket:hover {
+    transform: scale(1.05);
+}
+
+.ticket-width {
+    @apply max-w-[80vw] md:max-w-[20vw];
 }
 
 .the-font-text {
