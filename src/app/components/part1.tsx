@@ -29,9 +29,12 @@ export default function Part1() {
                             </a>
                         </div>
                         <div className="nav-r">
-                            <p className="nav-mini-text-b text-effect-b underline-effect-b">
-                                ABOUT US
-                            </p>
+                            <a
+                            href="mailto:jamyson@vrts.world?subject=Interested%20In%20VERITAS%20®&body=Hello%20Veritas%20%C2%AE%20team,%0A%0AWe%20are%20interested%20in%20your%20product%20and%20would%20love%20to%20chat!!%0A%0ACheers!"
+                            className="nav-mini-text-b text-effect-b underline-effect-b"
+                            >
+                                CONNECT
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -65,23 +68,32 @@ export default function Part1() {
         
         <section className="the-problem flex flex-col justify-center items-center">
             <div className="ticket-items flex flex-col md:flex-row">
-                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0 relative">
                     <img src="/int-1.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
                     <p className="text-gray-400 text-sm text-center pt-5">
                         <span className="underline">US$250B</span> are lost each year due to counterfeit products.
                     </p>
+                    <span className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-effect text-l">
+                        1
+                    </span>
                 </div>
-                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0 relative">
                     <img src="/int-2.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
                     <p className="text-gray-400 text-sm text-center pt-5">
                         <span className="underline">Only 19%</span> of companies in the fashion industry have visibility over their value chain.
                     </p>
+                    <span className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-effect text-l">
+                        2
+                    </span>
                 </div>
-                <div className="individual-tickets ticket-width w-full md:w-auto px-4">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 relative">
                     <img src="/int-3.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
                     <p className="text-gray-400 text-sm text-center pt-5">
                         <span className="underline">1M</span> deaths each year are caused by counterfeit medicines.
                     </p>
+                    <span className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-effect text-l">
+                        3
+                    </span>
                 </div>
             </div>
 
@@ -91,23 +103,32 @@ export default function Part1() {
 
             {/* Second set of ticket-items - hidden on small screens */}
             <div className="ticket-items flex flex-col md:flex-row pt-[15vh]">
-                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0 relative">
                 <img src="/int-4.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
                 <p className="text-gray-400 text-sm text-center pt-5">
                     Yet <span className="underline">75%</span> of consumers care about a products’ country of origin.
                 </p>
+                <span className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-effect text-l">
+                    4
+                </span>
                 </div>
-                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 mb-8 md:mb-0 relative">
                 <img src="/int-5.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
                 <p className="text-gray-400 text-sm text-center pt-5">
                     The resale market is expected to <span className="underline">double</span> in volume by 2027.
                 </p>
+                <span className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-effect text-l">
+                    5
+                </span>
                 </div>
-                <div className="individual-tickets ticket-width w-full md:w-auto px-4">
+                <div className="individual-tickets ticket-width w-full md:w-auto px-4 relative">
                 <img src="/int-6.png" className="the-ticket w-full max-w-[300px] mx-auto"></img>
                 <p className="text-gray-400 text-sm text-center pt-5">
                     The EU is mandating Digital Product Passports starting in <span className="underline">2026</span>.
                 </p>
+                <span className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-effect text-l">
+                    6
+                </span>
                 </div>
             </div>
         </section>
@@ -125,7 +146,13 @@ export default function Part1() {
                         <a href="#trace" className="text-effect-b">Explore</a>
                     </button>
                     <button className="grey-button button-hover">
-                        <p className="text-effect">Connect</p>
+                        <a
+                            href="mailto:jamyson@vrts.world?subject=Interested%20In%20VERITAS%20®&body=Hello%20Veritas%20%C2%AE%20team,%0A%0AWe%20are%20interested%20in%20your%20product%20and%20would%20love%20to%20chat!!%0A%0ACheers!"
+                            className="nav-mini-text-b text-effect-b"
+                            >
+                            <p className="text-effect">Connect</p>
+
+                        </a>
                     </button>
                 </div>
             </div>
