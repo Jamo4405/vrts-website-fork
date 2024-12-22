@@ -67,11 +67,11 @@ export default function Part1() {
             </section>
         </div>*/}
 
-            <section className="flex flex-col justify-center items-center mt-40">
+            <section className="the-problem flex flex-col justify-center items-center mt-35">
                 <div className="md:hidden mb-14">
-                    <p className="the-text-main text-4xl md:px-28 md:text-6xl text-black justify-center items-center leading-tight md:pt-16">
-                        Today&apos;s products are broken ...
-                    </p>
+                <p className="the-text-main text-3xl md:px-28 md:text-3xl lg:text-4xl text-black justify-center items-center leading-tight md:pt-16">
+                    Today&apos;s products are broken ...
+                </p>
                 </div>
                 <div className="grid md:hidden w-full grid-cols-2 gap-5">
                     <div className="w-full relative">
@@ -194,7 +194,7 @@ export default function Part1() {
             <section id="home" className="title-page flex flex-row justify-center items-center min-h-screen">
                 <div className="flex flex-col justify-center items-center">
                     <p className="the-text-main text-4xl md:px-28 md:text-6xl text-black justify-center items-center leading-tight md:pt-16">
-                        <span className="hidden md:inline">So </span>VERITAS<sup
+                        <span>So </span>VERITAS<sup
                         className="text-4xl"> ®</sup> empowers <span
                         className="fancy-gradient font-bold">products</span> with transparency, sustainability and
                         unparalleled digitisation.

@@ -1,5 +1,17 @@
+.veritas-sup {
+    background: linear-gradient(45deg, #C1DCFF, #C0C7FF, #0900FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 0.7em;
+}
+
 .heading-medium {
     font-size: 16px;
+}
+
+.resize {
+    transform: scale(1);
 }
 
 .heading-big {

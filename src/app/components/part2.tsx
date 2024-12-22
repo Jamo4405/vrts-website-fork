@@ -135,8 +135,8 @@ export default function Part2() {
                     <p className="ml-auto stand-text-minor text-effect force-footer-text">Based everywhere, all at
                         once.</p>
                 </div>
-                <p className="font-bold veritas-text-big w-fit text-center">
-                    VERITAS <sup className="veritas-text-big text-center !text-9xl hidden md:block">®</sup>
+                <p className="resize font-bold veritas-text-big w-fit the-flex items-start">
+                    VERITAS <sup className="veritas-sup">®</sup>
                 </p>
             </footer>
         </div>
