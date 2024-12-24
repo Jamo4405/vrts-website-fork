@@ -1,5 +1,6 @@
 import "./part1.css";
 import Image from "next/image";
+import RoundBlueCard from "@/app/components/roundBlueCard";
 
 export default function Part1() {
     return (
@@ -201,9 +202,9 @@ export default function Part1() {
                     </p>
                     <p className="the-text-minor text-center text-effect px-4 md:px-48">
                         We <span
-                        className="underline underline-offset-4 decoration-gray-500 decoration-2">trace</span>, <span
-                        className="underline underline-offset-4 decoration-gray-500 decoration-2">evaluate</span> and <span
-                        className="underline underline-offset-4 decoration-gray-500 decoration-2">improve</span> the
+                        className="underline underline-offset-4 decoration-gray-500 decoration-2">improve</span>, <span
+                        className="underline underline-offset-4 decoration-gray-500 decoration-2">trace</span> and <span
+                        className="underline underline-offset-4 decoration-gray-500 decoration-2">evaluate</span> the
                         impact of your products.
                     </p>
                     <div className="button-container">
@@ -222,6 +223,47 @@ export default function Part1() {
                     </div>
                 </div>
             </section>
+
+            <section id="features" className="flex flex-col gap-16 text-stone-600 py-10 justify-center items-center">
+                <p className="self-start underline underline-offset-4 decoration-gray-500 text-effect header-text-minor">improve</p>
+                <p className="text-center stand-text-minor text-effect"><span className="font-bold">Stop</span> selling
+                    a product. <span
+                        className="font-bold">Start</span> selling the journey.</p>
+                <div className="w-full flex justify-center">
+                    <div className="lg:max-w-[400px] md:max-w-[600px] max-w-[80%]">
+                        <Image className="force-relative the-phone-class" src={"/screenshots/screenshot_user.png"}
+                               alt={"screenshot user view"} fill/>
+                    </div>
+                </div>
+                <p id="use-cases" className="text-center stand-text-minor text-effect">We <span
+                    className="font-bold">generate</span> and <span
+                    className="font-bold">embed</span> QR or NFC tags into your products, letting users tap or
+                    exchange the digital product passport.</p>
+                <div className="w-full flex justify-center">
+                    <div className="h-[1px] w-full bg-gray-200"></div>
+                </div>
+                <p className="text-center stand-text-minor text-effect">The <span
+                    className="font-bold">DPP</span> allows you to:</p>
+                <div
+                    className="flex flex-wrap justify-center gap-y-2.5 gap-x-1.5 w-full h-auto md:px-16 px-6 overflow-hidden">
+                    <RoundBlueCard
+                        text={"Comply with EU ESPR 2028"}
+                        className="underline underline-offset-4"
+                    />
+                    <RoundBlueCard text={"Disclose the journey and craft of your products"}/>
+                    <RoundBlueCard text={"Track resale data of products"}/>
+                    <RoundBlueCard text={"Build a stronger secondary market by proving:"}/>
+                    <RoundBlueCard text={"Authenticity"}/>
+                    <RoundBlueCard text={"Ownership History"}/>
+                    <RoundBlueCard text={"Theft"}/>
+                    <RoundBlueCard text={"Environmental Footprint"}/>
+                    <RoundBlueCard text={"Disclose End–Of–Life Management"}/>
+                    <RoundBlueCard text={"Enhance Storytelling"}/>
+                    <RoundBlueCard text={"Trace Batch Defects"}/>
+
+                </div>
+            </section>
+
             <section id="trace" className="trace ">
                 <div className="">
                     <p className="underline underline-offset-4 decoration-gray-500 text-effect header-text-minor">trace</p>
