@@ -51,7 +51,7 @@
     .the-phone-class {
         width: auto !important;
         height: 70vh !important;
-        object-fit: cover !important;
+        object-fit: contain !important;
     }
 }
 
