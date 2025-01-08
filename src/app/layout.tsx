@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import "./globals.css";
 import CustomCursor from "./components/customCursor";
+import LoadingScreen from "./components/LoadingScreen";
 
 export const dynamic = "force-static";
 
@@ -21,7 +22,9 @@ export default function RootLayout({
             <link rel="icon" href="icon.ico"/>
         </head>
         <body>
-        {children}
+            <LoadingScreen>
+                {children}
+            </LoadingScreen>
         <CustomCursor/>
         </body>
         </html>
