@@ -7,7 +7,7 @@ export default function Part1() {
         <>
             <div className="fixed w-screen top-0 left-0 flex items-center p-4 md:p-10 z-50">
                 <div className="flex items-center gap-2">
-                    <Image src={"/logo.png"} alt={"logo"} width={60} height={60}/>
+                    <Image src={"/logo.svg"} alt={"logo"} width={40} height={40}/>
                     <p className="text-effect text-3xl md:text-5xl">VERITAS</p><sup
                     className="text-effect text-3xl">®</sup>
                 </div>
@@ -209,7 +209,11 @@ export default function Part1() {
                     </p>
                     <div className="button-container">
                         <button className="blue-button button-hover">
-                            <a href="#trace" className="text-effect-b">Explore</a>
+                            <a 
+                                href="#trace"
+                            >
+                                <p className="text-effect-b sm:!text-[12px]">Explore</p>
+                            </a>
                         </button>
                         <button className="grey-button button-hover">
                             <a

@@ -5,7 +5,7 @@ import CustomCursor from "./components/customCursor";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-    title: "VRTS | VERITAS",
+    title: "VERITAS",
     description:
         "Veritas is solving 3 problems: product authenticity, supply chain transparency, and brand experience all through a single solution: the Digital Product Passport.",
 };
