@@ -42,6 +42,15 @@
     background-clip: text;
 }
 
+.text-effect-b {
+    background-color: #808dff;
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.9);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
 .nav-mini-text {
     font-size: 12px;
     margin: 0 8px;
@@ -50,15 +59,6 @@
 
 .nav-mini-text-b {
     font-size: 12px;
-}
-
-.text-effect-b {
-    background-color: #808dff;
-    color: transparent;
-    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.9);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
 }
 
 .nav-l {

@@ -212,7 +212,7 @@ export default function Part1() {
                             <a 
                                 href="#trace"
                             >
-                                <p className="text-effect-b sm:!text-[12px]">Explore</p>
+                                <p className="text-effect-b">Explore</p>
                             </a>
                         </button>
                         <button className="grey-button button-hover">
